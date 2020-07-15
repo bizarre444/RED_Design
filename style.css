@@ -150,7 +150,7 @@ header .navbar {
 }
 
 .home-text span {
-	color: #f20101;
+	color: #050505;
 	font-weight: 700;
 }
 
@@ -410,7 +410,6 @@ a.btn.btn-trans:hover {
 
 .gl-overlay {
 	position: absolute;
-	background: rgba(242, 0, 0, .6);
 	top: 0;
 	left: 0;
 	right: 0;
@@ -443,9 +442,9 @@ a.btn.btn-trans:hover {
 	margin-bottom: 0;
 }
 
-.gl-overlay i:hover {
+/* .gl-overlay i:hover {
 	background: #EB0000;
-}
+} */
 
 .gl-overlay:hover {
 	opacity: 1;
@@ -747,3 +746,6 @@ footer {
 	margin-bottom: 70px;
 }
 
+a.hover:hover {
+	color: #EB0000;
+}

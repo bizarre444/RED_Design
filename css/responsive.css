@@ -57,6 +57,10 @@
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+	a.my2 {
+		font-size: 22px;
+		display: contents;
+	}
 	header .navbar-brand {
 		padding: 6px 16px;
 		height: 60px;
@@ -89,11 +93,29 @@
 		width: 44px;
 		height: 8px;
 	}
+	a.my2 {
+		font-size: 28px;
+		display: contents;
+		vertical-align: text-top;
+
+	}
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
 	#team {
 		display: none;
+	}
+	a.my2 {
+		font-size: 22px;
+		display: contents;
+		vertical-align: text-top;
+	}
+	div.nav {
+		padding-top: 0;
+		display: inline-flex;
+		text-align: center;
+    	width: 100%;
+		margin-left: 180px;
 	}
 }
 
@@ -101,4 +123,49 @@
 	#team {
 		display: none;
 	}
+	a.my2 {
+		vertical-align: text-top;
+		font-size: 28px;
+		display: contents;
+	}
+	a.navbar-brand>img {
+		display: block;
+		float: left;
+	}
+	.nav {
+		padding-top: 20px;
+	}
+	div.nav {
+		padding-top: 0;
+		display: inline-flex;
+		text-align: center;
+    	width: 100%;
+		margin-left: 78px;
+	}
 }
+
+@media only screen and (max-width: 360px) { 
+	.home-text h1 {
+		font-size: 37px;
+	}
+	#team {
+		display: none;
+	}
+	a.my2 {
+		font-size: 22px;
+		display: contents;
+	}
+	a.navbar-brand>img {
+		display: block;
+		float: left;
+	}
+	div.nav {
+		padding-top: 0;
+		display: inline-flex;
+		/* margin-top: -30px; */
+		margin-left: 65px;
+	}
+
+}
+
+ 
